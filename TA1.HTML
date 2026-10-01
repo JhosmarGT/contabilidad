@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TA1.CSS">
+</head>
+<body>
+    
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+        <h1>Libros Contables en el Perú</h1>
+        <p>Línea de tiempo: evolución de los registros contables</p>
+    </header>
+
+
+    <!-- INTRODUCCIÓN -->
+    <section class="introduccion">
+        <h2>¿Qué son los libros contables?</h2>
+
+        <p>
+            Los libros contables son registros donde se organizan las operaciones
+            económicas y financieras realizadas por una empresa. Permiten llevar
+            un control de las operaciones y facilitar la elaboración de información
+            contable y el cumplimiento de obligaciones tributarias.
+        </p>
+    </section>
+
+
+    <!-- LÍNEA DE TIEMPO -->
+    <section class="timeline-section">
+
+        <h2>Evolución de los libros contables</h2>
+
+        <div class="timeline">
+
+            <!-- ETAPA 1 -->
+            <div class="evento izquierda">
+                <div class="contenido">
+                    <span class="fecha">Etapa tradicional</span>
+
+                    <h3>Libros contables físicos</h3>
+
+                    <p>
+                        Las operaciones se registraban manualmente en libros
+                        físicos. Se utilizaban documentos y registros en papel
+                        para conservar la información de las empresas.
+                    </p>
+
+                    <button class="boton" onclick="mostrarInfo(1)">
+                        Ver información
+                    </button>
+
+                    <div id="info1" class="informacion">
+                        <strong>Principales registros:</strong>
+                        Libro Diario, Libro Mayor, Libro de Inventarios y
+                        Balances, entre otros.
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ETAPA 2 -->
+            <div class="evento derecha">
+                <div class="contenido">
+                    <span class="fecha">2009</span>
+
+                    <h3>Inicio del sistema electrónico</h3>
+
+                    <p>
+                        SUNAT establece disposiciones para implementar el
+                        Sistema de Libros Electrónicos.
+                    </p>
+
+                    <button class="boton" onclick="mostrarInfo(2)">
+                        Ver información
+                    </button>
+
+                    <div id="info2" class="informacion">
+                        La Resolución de Superintendencia N.° 286-2009/SUNAT
+                        estableció disposiciones relacionadas con el llevado
+                        de determinados libros y registros electrónicos.
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ETAPA 3 -->
+            <div class="evento izquierda">
+                <div class="contenido">
+                    <span class="fecha">2010</span>
+
+                    <h3>Implementación del PLE</h3>
+
+                    <p>
+                        SUNAT comienza la implementación del Programa de
+                        Libros Electrónicos (PLE).
+                    </p>
+
+                    <button class="boton" onclick="mostrarInfo(3)">
+                        Ver información
+                    </button>
+
+                    <div id="info3" class="informacion">
+                        El PLE permitió validar archivos electrónicos y generar
+                        constancias relacionadas con los libros electrónicos.
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ETAPA 4 -->
+            <div class="evento derecha">
+                <div class="contenido">
+                    <span class="fecha">2013</span>
+
+                    <h3>Expansión de los libros electrónicos</h3>
+
+                    <p>
+                        Se amplía progresivamente el uso de libros y registros
+                        electrónicos para determinados contribuyentes.
+                    </p>
+
+                    <button class="boton" onclick="mostrarInfo(4)">
+                        Ver información
+                    </button>
+
+                    <div id="info4" class="informacion">
+                        Entre los registros que pueden estar sujetos a
+                        obligaciones electrónicas se encuentran el Libro Diario,
+                        Libro Mayor, Registro de Compras y Registro de Ventas
+                        e Ingresos.
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ETAPA 5 -->
+            <div class="evento izquierda">
+                <div class="contenido">
+                    <span class="fecha">2021</span>
+
+                    <h3>Creación del SIRE</h3>
+
+                    <p>
+                        SUNAT establece el marco para el Sistema Integrado
+                        de Registros Electrónicos.
+                    </p>
+
+                    <button class="boton" onclick="mostrarInfo(5)">
+                        Ver información
+                    </button>
+
+                    <div id="info5" class="informacion">
+                        El SIRE permite gestionar electrónicamente información
+                        correspondiente principalmente al Registro de Ventas
+                        e Ingresos y al Registro de Compras.
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ETAPA 6 -->
+            <div class="evento derecha">
+                <div class="contenido">
+                    <span class="fecha">2023 - 2024</span>
+
+                    <h3>Implementación progresiva del SIRE</h3>
+
+                    <p>
+                        El sistema comienza a incorporarse progresivamente
+                        según las condiciones establecidas por SUNAT.
+                    </p>
+
+                    <button class="boton" onclick="mostrarInfo(6)">
+                        Ver información
+                    </button>
+
+                    <div id="info6" class="informacion">
+                        El SIRE integra información relacionada con el Registro
+                        de Ventas e Ingresos Electrónico (RVIE) y el Registro
+                        de Compras Electrónico (RCE).
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ETAPA 7 -->
+            <div class="evento izquierda">
+                <div class="contenido">
+                    <span class="fecha">2025</span>
+
+                    <h3>Consolidación del SIRE</h3>
+
+                    <p>
+                        Continúa la incorporación de contribuyentes al sistema
+                        de registros electrónicos.
+                    </p>
+
+                    <button class="boton" onclick="mostrarInfo(7)">
+                        Ver información
+                    </button>
+
+                    <div id="info7" class="informacion">
+                        El SIRE busca reducir procesos manuales, facilitar
+                        el registro de operaciones y utilizar información
+                        proveniente de los comprobantes electrónicos.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- LIBROS PRINCIPALES -->
+    <section class="libros">
+
+        <h2>Principales libros y registros</h2>
+
+        <div class="tarjetas">
+
+            <div class="tarjeta">
+                <h3>Libro Diario</h3>
+                <p>
+                    Registra cronológicamente las operaciones económicas
+                    realizadas por la empresa.
+                </p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Libro Mayor</h3>
+                <p>
+                    Organiza los movimientos de las diferentes cuentas
+                    contables.
+                </p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Registro de Compras</h3>
+                <p>
+                    Registra las adquisiciones de bienes y servicios
+                    realizadas por la empresa.
+                </p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Registro de Ventas e Ingresos</h3>
+                <p>
+                    Registra las ventas y otros ingresos realizados por
+                    la empresa.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TIPOS -->
+    <section class="tipos">
+
+        <h2>Tipos de libros y registros</h2>
+
+        <div class="tipos-contenedor">
+
+            <div>
+                <h3>Libros contables</h3>
+                <p>
+                    Contienen información relacionada con las operaciones
+                    económicas y financieras de la empresa.
+                </p>
+            </div>
+
+            <div>
+                <h3>Libros auxiliares</h3>
+                <p>
+                    Ayudan a organizar y analizar con mayor detalle las
+                    operaciones registradas en la contabilidad.
+                </p>
+            </div>
+
+            <div>
+                <h3>Registros tributarios</h3>
+                <p>
+                    Permiten cumplir con las obligaciones de información
+                    requeridas por la administración tributaria.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- USO DE IA -->
+    <section class="ia">
+
+        <h2>Uso de Inteligencia Artificial</h2>
+
+        <p>
+            Para realizar esta investigación se utilizó ChatGPT y Gemini para comprobar respuestas como
+            herramienta de apoyo para recopilar conceptos, organizar la
+            información y comprender la evolución de los libros contables.
+        </p>
+
+        <p>
+            La información obtenida mediante IA fue contrastada con fuentes
+            oficiales como SUNAT y el Ministerio de Economía y Finanzas (MEF).
+        </p>
+
+        <div class="prompt">
+            <strong>Prompt utilizado:</strong>
+
+            <p>
+                "Investiga la evolución de los libros contables en el Perú,
+                desde los libros físicos hasta los libros electrónicos,
+                considerando la normativa de SUNAT."
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- FUENTES -->
+    <section class="fuentes">
+
+        <h2>Fuentes consultadas</h2>
+
+        <ul>
+            <li>SUNAT - Libros y Registros Electrónicos</li>
+            <li>SUNAT - Sistema Integrado de Registros Electrónicos (SIRE)</li>
+            <li>Ministerio de Economía y Finanzas - Consejo Normativo de Contabilidad</li>
+            <li>Normas Internacionales de Información Financiera (NIIF)</li>
+        </ul>
+
+    </section>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>
+            Investigación sobre los libros contables en el Perú - 2025
+        </p>
+    </footer>
+
+
+    <script src="TA1.JS"></script>
+
+</body>
+</html>
